@@ -2,7 +2,7 @@ package com.bjsxt.proxy.staticProxy;
 
 public class ProxyStar implements Star {
 	
-	private Star star;
+	private Star star;//接口做属性,方便实现多态
 	
 	public ProxyStar(Star star) {
 		super();
